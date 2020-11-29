@@ -1,0 +1,44 @@
+database:
+  username: "user"
+  password: "pass"
+  host_and_port: "localhost:3306"
+  thread_count: 4
+  database: "database"
+pixel_look_material: "GOLD_NUGGET"
+pixel_circle_material: "YELLOW_STAINED_GLASS_PANE"
+start_of_reset: "9:50"
+end_of_reset: "10:00"
+winnable_items:
+  diamond:
+    command: "give %%player%% diamond %%count%%"
+    circle_material: "BLUE_STAINED_GLASS_PANE"
+    item_material: "DIAMOND"
+  gold:
+    command: "give %%player%% gold_ingot %%count%%"
+    circle_material: "YELLOW_STAINED_GLASS_PANE"
+    item_material: "GOLD_INGOT"
+rounds:
+    1:
+      price: 70
+      pixels:
+        count: 100
+        chance: 70
+      winnable_items:
+        diamond:
+          count: 1
+          chance: 10
+        gold:
+          count: 2
+          chance: 20
+    2:
+      price: 150
+      pixels:
+        count: 250
+        chance: 50
+      winnable_items:
+        diamond:
+          count: 3
+          chance: 20
+        gold:
+          count: 5
+          chance: 30

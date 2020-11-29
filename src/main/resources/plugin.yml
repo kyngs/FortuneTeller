@@ -1,0 +1,10 @@
+name: FortuneTeller
+version: ${project.version}
+main: xyz.kyngs.mc.fortuneteller.FortuneTeller
+depend:
+  - TokenManager
+api-version: 1.16
+commands:
+  fortuneteller:
+    permission: xyz.kyngs.mc.fortuneteller
+    usage: "/fortuneteller"
